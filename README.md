@@ -12,6 +12,7 @@ T-PageCode新标签页扩展，搜索引擎为GitHub Search
 9.如果想恢复原来的标签页,卸载扩展就可以<br>
 ## CRX说明
 1.首先到GitHub Releases里下载CRX文件<br>
+**警告:千万不要用Chrome下载!Chrome会拦截CRX导致无法下载的!请用其他下载器下载!或者使用GitHub给的ZIP!**<br>
 2.打开Chrome浏览器<br>
 3.点击右上角三点菜单 -> 扩展程序 -> 管理扩展程序<br>
 4.打开文件资源管理器,切换到您下载CRX的目录<br>
