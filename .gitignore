@@ -1,6 +1,4 @@
 # T-PageCode Gitignore
-# PEM is Key File, Cannot Upload.
-T-PageCode-New-Tab.pem
 # Visual Studio Code File
 .vscode/
 # IDEA File
