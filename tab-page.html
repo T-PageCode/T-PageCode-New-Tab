@@ -5,10 +5,7 @@
     <title>新标签页</title>
     <style>
         body{
-            background-image: url(./bg.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
+            background-color: white;
             user-select: none;
         }
         *{
@@ -19,69 +16,46 @@
             top: calc(50% - 40px);
             left: 50%;
             transform: translate(-50%,-50%);
-            color: white;
+            color: black;
             font-weight: 200;
             font-size: 50px;
             white-space: nowrap;
-        }
-        h1 span{
-            color: rgb(168, 255, 175);
         }
         input{
             position: absolute;
             top: calc(50% + 40px);
             left: 50%;
             transform: translate(-50%,-50%);
-            background-color: rgb(255,255,255,0.5);
-            backdrop-filter: blur(5px);
-            color: white;
+            background-color: rgb(255,255,255);
+            color: black;
             font-weight: 200;
-            width: 400px;
-            height: 40px;
+            width: 600px;
+            height: 60px;
             border: none;
             text-align: center;
-            border-radius: 15px;
+            border-radius: 100px;
             font-size: 18px;
             transition: filter 0.5s ease;
+            filter: drop-shadow(0 0 15px rgb(0,0,0,0.3))
         }
         input:hover{
-            filter: drop-shadow(0 0 20px rgb(255,255,255,0.5));
-        }
-        input:active{
-            filter: drop-shadow(0 0 20px rgb(255,255,255,0.5));
+            filter: drop-shadow(0 0 25px rgb(0,0,0,0.3));
         }
         input::placeholder{
-            color: white;
+            color: rgb(50,50,50);
+            font-weight: 400;
         }
         input:focus{
             outline: none;
         }
         input::selection{
-            color: rgb(150, 255, 156);
-        }
-        #info{
-            position: absolute;
-            top: 95%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            background-color: rgb(255,255,255,0.5);
-            color: white;
-            width: 200px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 15px;
-            backdrop-filter: blur(5px);
-            transition: opacity 0.5s ease;
-            opacity: 0;
+            color: blueviolet;
         }
     </style>
 </head>
 <body>
-    <h1>T-PageCode<span>&nbsp;GitHub&nbsp;</span>Search</h1>
-    <input placeholder="Search Content...">
-    <div id="info">Please Input Content</div>
+    <h1>GitHub</h1>
+    <input placeholder="输入GitHub关键词，或按回车跳转GitHub搜索...">
     <script src="./index.js"></script>
 </body>
 </html>
