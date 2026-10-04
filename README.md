@@ -1,27 +1,2 @@
-# T-PageCode-New-Tab
-T-PageCode新标签页扩展，搜索引擎为GitHub Search
-## 使用说明
-1.首先点击GitHub的Code -> Download ZIP<br>
-2.解压下载的ZIP,打开Chrome浏览器<br>
-3.点击右上角三点菜单 -> 扩展程序 -> 管理扩展程序<br>
-4.找到右上角的开发者模式,点击开启<br>
-5.这时候就有三个选项,点击加载未打包的扩展程序<br>
-6.弹出文件夹选择框时,选择您刚才解压的源码文件夹<br>
-7.新建一个标签页,如果提示修改了默认标签页,同意即可<br>
-8.您可能会看到底部的个性化Chrome和其他元素,右键隐藏即可<br>
-9.如果想恢复原来的标签页,卸载扩展就可以<br>
-## CRX说明
-1.首先到GitHub Releases里下载CRX文件<br>
-**警告:千万不要用Chrome下载!Chrome会拦截CRX导致无法下载的!请用其他下载器下载!或者使用GitHub给的ZIP!**<br>
-2.打开Chrome浏览器<br>
-3.点击右上角三点菜单 -> 扩展程序 -> 管理扩展程序<br>
-4.打开文件资源管理器,切换到您下载CRX的目录<br>
-5.拖拽CRX文件到Chrome,然后安装<br>
-6.新建一个标签页,如果提示修改了默认标签页,同意即可<br>
-7.您可能会看到底部的个性化Chrome和其他元素,右键隐藏即可<br>
-8.如果想恢复原来的标签页,卸载扩展就可以<br>
-## FAQ
-#### **Q:为什么我的Chrome提示"CRX_REQUIRED_PROOF_MISSING"?**
-***A:这是因为Chrome的安全策略,请使用其他浏览器或使用下载器,如果依旧不行,建议使用源码安装***
-#### **Q:为什么下载的CRX被删除了?**
-***A:这是因为Chrome的安全策略把CRX删除了,如果需要CRX,请用其他浏览器或下载器下载,如果依旧不行,请使用源码安装***
+# T-PageCode-New-Tab English
+English version of T-PageCode-New-Tab.
