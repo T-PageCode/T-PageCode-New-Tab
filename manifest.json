@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "T-PageCode New Tab",
+    "name": "T-PageCode New Tab English",
     "version": "3.0",
-    "description": "This is T-PageCode New Tab Page",
+    "description": "This is T-PageCode New Tab Page  English",
     "author": "T-PageCode",
     "icons": {
         "16": "img/logo.png",
