@@ -1,4 +1,7 @@
 # T-PageCode-New-Tab
+
+中文 | [English](https://github.com/T-PageCode/T-PageCode-New-Tab/tree/English
+)
 T-PageCode新标签页扩展，搜索引擎为GitHub Search
 ## 使用说明
 1.首先点击GitHub的Code -> Download ZIP<br>
